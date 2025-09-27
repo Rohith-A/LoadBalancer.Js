@@ -1,6 +1,6 @@
 {
   "name": "r-load-balancer.js",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "A dynamic load balancer for Node.js that optimizes CPU and memory allocation across I/O and CPU-bound tasks, with a built-in generic worker.",
   "type": "commonjs",
   "main": "loadBalancer.js",
@@ -15,7 +15,15 @@
     "generic-worker.js",
     "README.md"
   ],
-  "keywords": ["load-balancer", "worker-threads", "CPU", "I/O", "resource-allocator", "parallel", "multithreading"],
+  "keywords": [
+    "load-balancer",
+    "worker-threads",
+    "CPU",
+    "I/O",
+    "resource-allocator",
+    "parallel",
+    "multithreading"
+  ],
   "author": {
     "name": "Rohith Addula",
     "email": "arohith9714@gmail.com"
@@ -26,7 +34,9 @@
     "express": ">=4"
   },
   "peerDependenciesMeta": {
-    "express": { "optional": true }
+    "express": {
+      "optional": true
+    }
   },
   "engines": {
     "node": ">=18.0.0"
