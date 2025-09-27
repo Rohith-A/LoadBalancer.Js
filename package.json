@@ -1,6 +1,6 @@
 {
   "name": "r-load-balancer.js",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "description": "A dynamic load balancer for Node.js that optimizes CPU and memory allocation across I/O and CPU-bound tasks, with a built-in generic worker.",
   "type": "commonjs",
   "main": "loadBalancer.js",
